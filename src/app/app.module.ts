@@ -1,4 +1,4 @@
-import { Http } from '@angular/http';
+import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    Http
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
